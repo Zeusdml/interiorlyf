@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Interiorlyf | Interior &amp; Architectural Design Studio, Lagos</title>
+<meta name="description" content="Interiorlyf designs, visualizes in 3D, and builds residential and commercial spaces in Lagos, Nigeria — from first floor plan to final handover.">
+<meta property="og:title" content="Interiorlyf | Interior &amp; Architectural Design Studio, Lagos">
+<meta property="og:description" content="Rooms planned before a wall is touched. Explore our projects, interactive floor planner, and book a site consultation in Lagos.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231F2A26'/%3E%3Cpath d='M18 46V28a14 14 0 0 1 28 0v18' fill='none' stroke='%23C89B54' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='34' r='4' fill='%232A6F68'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "InteriorDesigner",
+  "name": "Interiorlyf",
+  "description": "Interior and architectural design, 3D visualization, remodelling, and build studio in Lagos, Nigeria.",
+  "telephone": "+2348160661233",
+  "email": "interiorlyf1@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lagos",
+    "addressCountry": "NG"
+  },
+  "sameAs": [
+    "https://www.instagram.com/interiorlyf?dlrf=MTh4MTB0ZmQzZ2pjaQ==",
+    "https://www.tiktok.com/@interiorlyf?_r=1&_t=ZN-9BScNRIBcxC"
+  ]
+}
+</script>
+<style>
+:root {
+  --bg: #FAF6F0;
+  --bg-alt: #F2EBE1;
+  --ink: #1C2321;
+  --mute: #5D6662;
+  --surf: #FFFFFF;
+  --line: #E3D9CB;
+  --teal: #1D5C55;
+  --teal-soft: #E5F0EE;
+  --gold: #C89B54;
+  --gold-soft: #F7EFE2;
+  --terra: #C66D51;
+  --forest: #182623;
+  --shadow: 0 12px 32px rgba(28, 35, 33, 0.06);
+  --shadow-lg: 0 20px 48px rgba(28, 35, 33, 0.12);
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #131918;
+    --bg-alt: #1A2220;
+    --ink: #F5EFE6;
+    --mute: #A8B2AE;
+    --surf: #1E2826;
+    --line: #2F3D3A;
+    --teal: #3B8C82;
+    --teal-soft: #1E3330;
+    --gold: #D9AD66;
+    --gold-soft: #2A251D;
+    --terra: #DC8266;
+    --forest: #0D1211;
+    --shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+    --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.42);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #131918;
+  --bg-alt: #1A2220;
+  --ink: #F5EFE6;
+  --mute: #A8B2AE;
+  --surf: #1E2826;
+  --line: #2F3D3A;
+  --teal: #3B8C82;
+  --teal-soft: #1E3330;
+  --gold: #D9AD66;
+  --gold-soft: #2A251D;
+  --terra: #DC8266;
+  --forest: #0D1211;
+  --shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.42);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 17px/1.65 Figtree, system-ui, -apple-system, sans-serif;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 {
+  font-family: 'Bricolage Grotesque', Figtree, sans-serif;
+  font-weight: 800;
+  line-height: 1.06;
+  margin: 0;
+  letter-spacing: -0.025em;
+}
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.wrap { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+
+/* Header & Navigation */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 72px;
+}
+.logo {
+  font: 800 25px 'Bricolage Grotesque', sans-serif;
+  text-decoration: none;
+  letter-spacing: -0.03em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.logo i { color: var(--teal); font-style: normal; }
+.logo-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gold); display: inline-block; }
+
+.nav-group { display: flex; align-items: center; gap: 8px; }
+nav { display: flex; align-items: center; gap: 4px; }
+nav a {
+  padding: 8px 14px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 99px;
+  color: var(--ink);
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+}
+nav a:hover, nav a[aria-current] {
+  background: var(--teal-soft);
+  color: var(--teal);
+}
+nav a.bk {
+  background: var(--teal);
+  color: #fff;
+  margin-left: 6px;
+}
+nav a.bk:hover {
+  background: var(--forest);
+  color: #fff;
+}
+.icon-btn {
+  background: var(--surf);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  width: 40px;
+  height: 40px;
+  border-radius: 99px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 17px;
+  transition: border-color 0.2s, transform 0.15s;
+}
+.icon-btn:hover { border-color: var(--gold); transform: translateY(-1px); }
+.menu-btn { display: none; }
+
+/* Buttons & Sections */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--forest);
+  color: #FAF6F0;
+  border: 2px solid transparent;
+  border-radius: 99px;
+  padding: 14px 26px;
+  font: 600 15.5px Figtree, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.18s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.btn.t { background: var(--teal); color: #fff; }
+.btn.t:hover { background: #154640; }
+.btn.g { background: var(--gold); color: #1C2321; font-weight: 700; }
+.btn.g:hover { background: #d6a85e; }
+.btn.ig { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: #fff; }
+.btn.ig:hover { opacity: 0.94; }
+.btn.o { background: transparent; color: inherit; border-color: currentColor; }
+.btn.o:hover { background: rgba(128, 128, 128, 0.1); }
+
+.btn-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--teal);
+  background: var(--teal-soft);
+  padding: 6px 14px;
+  border-radius: 99px;
+  margin-bottom: 16px;
+}
+.c-forest .eyebrow { background: rgba(200, 155, 84, 0.18); color: var(--gold); }
+
+.c-sand { background: var(--bg-alt); color: var(--ink); }
+.c-teal { background: var(--teal); color: #FAF6F0; }
+.c-forest { background: var(--forest); color: #FAF6F0; }
+.c-gold-tint { background: var(--gold-soft); color: var(--ink); }
+
+section { padding: 84px 0; }
+h1 { font-size: clamp(40px, 6.2vw, 74px); }
+h2 { font-size: clamp(30px, 4.2vw, 48px); margin-bottom: 14px; }
+.lead { max-width: 58ch; margin: 0 0 38px; color: var(--mute); font-size: 18px; }
+.c-teal .lead, .c-forest .lead { color: rgba(250, 246, 240, 0.84); }
+
+/* Hero & Interactive Planner */
+.hero {
+  padding: 64px 0 84px;
+  background: radial-gradient(circle at 85% 20%, var(--gold-soft), transparent 55%), var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+.hero .wrap {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.hero p { max-width: 48ch; margin: 20px 0 30px; font-size: 18px
